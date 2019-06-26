@@ -1,3 +1,6 @@
+# Author: Kranthi_Kumar
+@kranthi-kaka
+
 import pytesseract
 from PIL import Image
 
