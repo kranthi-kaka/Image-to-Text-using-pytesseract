@@ -1,0 +1,12 @@
+import pytesseract
+from PIL import Image
+
+pytesseract.pytesseract.tesseract_cmd = "C:/Program Files (x86)/Tesseract-OCR/tesseract" 
+
+img = Image.open('test.png') # import images in .png & .jpg formats
+
+result = pytesseract.image_to_string(img)
+
+with open('test_image.txt', mode='w') as file: # Enetr the file name in the ('.txt')
+    file.write(result)
+    print('Converted image to Text')
