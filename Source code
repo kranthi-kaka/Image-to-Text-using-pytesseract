@@ -1,6 +1,9 @@
-# Author: Kranthi_Kumar
-@kranthi-kaka
+#----------------------------------------------
+#--- Author         : Kranthi Kumar D
+#--- GitHub         : kranthi-kaka
+#----------------------------------------------
 
+#imports
 import pytesseract
 from PIL import Image
 
